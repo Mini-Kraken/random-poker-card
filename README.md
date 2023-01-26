@@ -1,20 +1,18 @@
 
 # Random Poker Card Generator
 
-An extremely simple API that returns a random playing card with a minimalist design, can be used by discord bots for example
+An extremely simple Fake API that returns a random playing card with a minimalist design, can be used by discord bots for example
 
-## Javascript Exemple
+## Request Exemples
 
-To run tests, run the following command
-
-### Javascript
+### JS
 ```js
 var type = Math.floor(Math.random() * 4);
 var card = Math.floor(Math.random() * 13) + 1;
 var result = `https://mini-kraken.github.io/random-poker-card/files/${type}/${card}.png`
 console.log(result)
 ```
-### Python
+### python
 ```py
 import random
 type = random.randint(0,3)
@@ -22,7 +20,7 @@ card = random.randint(1,13)
 result = f"https://mini-kraken.github.io/random-poker-card/files/{type}/{card}.png"
 print(result)
 ```
-### C#
+### c#
 ```c#
 using System;
 
